@@ -1,0 +1,4 @@
+.banco-header-client {
+    color: var(--banco-color-font-primary);
+    background-color: var(--banco-color-bg-secondary);
+}

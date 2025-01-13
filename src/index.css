@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --banco-color-bg-primary: #1C1A1A;
+    --banco-color-bg-secondary: #2b2b2b;
+    --banco-color-bg-tertiary: #FFF;
+    --banco-color-bg-quaternary: ;
+    --banco-color-bg-notification: ;
+
+    --banco-color-card-bg: #2B2B2B;
+
+    --banco-color-btn-primary: #69D2CD;
+    --banco-color-btn-secondary: #2E2D2D;
+
+    --banco-color-font-primary: #FFF;
+    --banco-color-font-secondary: #E96363;
+    --banco-color-font-tertiary: ;
+
+    --banco-color-font-button: #2E2D2D;
+    --banco-color-font-placeholder: ;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+html, body {
+    background-color: var(--banco-color-bg-primary);
+}
+
+main {
+    padding: 0 20px;
+}
+
+/*--------------------------------------------------------------*/
+/* generic styles */
+
+.banco-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------------------------*/
+/* header styles */
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+.banco-navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.banco-menu-items-container {
+    display: flex;
+}
+
+.banco-menu-items-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.banco-menu-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.banco-logged-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banco-logged-entrar {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.banco-logged-user span {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}

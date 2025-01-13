@@ -1,10 +1,19 @@
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import ClientHome from "./routes/ClientHome";
+import Login from "./routes/ClientHome/Login";
 
-
-function App() {
+export default function App() {
 
   return (
-    <h2>Hello Wolrd!</h2>
+    <BrowserRouter>
+      <Routes>
+
+        <Route path="/" element={<ClientHome/>} >
+          <Route index element={<Login/>} />
+        </Route>
+
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App
