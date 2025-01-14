@@ -19,7 +19,7 @@
     --banco-color-font-tertiary: #B9F1D6;
 
     --banco-color-font-button: #2E2D2D;
-    --banco-color-font-placeholder: ;
+    --banco-color-font-placeholder: #434040;
 
     --banco-color-hr: #1F1F1F;
     --banco-color-hr-secondary: #69D2CD;
@@ -76,6 +76,18 @@ main {
 
 .banco-mt5 {
     margin-top: 5px;
+}
+
+.banco-mb5 {
+    margin-bottom: 5px;
+}
+
+.banco-mt10 {
+    margin-top: 10px;
+}
+
+.banco-mt15 {
+    margin-top: 15px;
 }
 
 .banco-mt40 {

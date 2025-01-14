@@ -1,0 +1,11 @@
+.banco-form-select-container {
+    padding: unset;
+    height: unset;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banco-form-select-container:focus{
+    outline: none;
+}

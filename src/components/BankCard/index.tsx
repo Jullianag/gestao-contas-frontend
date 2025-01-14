@@ -1,5 +1,6 @@
 import './styles.css';
 import nuIcon from "../../assets/nuicon.svg";
+import closeIcon from "../../assets/close.svg";
 
 export default function BankCard() {
 
@@ -16,6 +17,10 @@ export default function BankCard() {
                         Nubank
                     </div>
                     <div className="banco-bank banco-cor-valor">R$ 3000.0</div>
+                    <div className="banco-close">
+                        <img src={closeIcon} alt={closeIcon}/>
+                    </div>
+
                 </div>
 
         </>

@@ -3,4 +3,5 @@
     height: 26px;
     border-radius: 8px;
     background-color: var(--banco-color-bg-input);
+    border: none;
 }

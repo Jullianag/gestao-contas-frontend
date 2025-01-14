@@ -1,5 +1,6 @@
 import './styles.css';
 import AddInput from "../AddInput";
+import FormSelect from "../FormSelect";
 
 export default function AddBank() {
 
@@ -12,11 +13,11 @@ export default function AddBank() {
 
                         <label>Apelido</label>
                         <AddInput/>
-                        <label>Banco</label>
-                        <AddInput/>
-                        <label>Tipo</label>
-                        <AddInput/>
-                        <label>Valor</label>
+                        <label className="banco-mb5 ">Banco</label>
+                        <FormSelect/>
+                        <label className="banco-mb5 banco-mt15">Tipo</label>
+                        <FormSelect/>
+                        <label className="banco-mt15">Valor</label>
                         <AddInput/>
 
 

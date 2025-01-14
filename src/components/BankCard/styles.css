@@ -23,4 +23,8 @@
     color: var(--banco-color-font-tertiary);
 }
 
+.banco-close {
+    margin-left: -200px;
+    margin-right: 10px;
+}
 
