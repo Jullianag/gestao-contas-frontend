@@ -1,0 +1,6 @@
+.banco-add-input {
+    width: 330px;
+    height: 26px;
+    border-radius: 8px;
+    background-color: var(--banco-color-bg-input);
+}

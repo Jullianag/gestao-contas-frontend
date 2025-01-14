@@ -1,0 +1,8 @@
+.banco-add {
+    display: flex;
+    flex-direction: column;
+}
+
+.banco-add h2 {
+    margin-bottom: 20px;
+}

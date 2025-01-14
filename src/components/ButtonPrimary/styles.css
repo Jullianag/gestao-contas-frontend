@@ -1,0 +1,4 @@
+.banco-btn-blue {
+    background-color: var(--banco-color-btn-primary);
+    color: var(--banco-color-font-button);
+}
