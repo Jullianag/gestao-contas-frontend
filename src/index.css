@@ -203,6 +203,7 @@ nav h1 {
     font-size: 16px;
     padding: 0 20px;
     border-radius: 8px;
+    border: none;
     background-color: var(--banco-color-bg-input);
 
 }

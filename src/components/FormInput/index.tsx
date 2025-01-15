@@ -1,8 +1,24 @@
-export default function FormInput() {
+export default function FormInput(props: any) {
+
+    const {
+        validation,
+        invalid = "false",
+        dirty = "false",
+        onTurnDirty,
+        ...inputProps
+    } = props;
+
+    function handleBlur() {
+        onTurnDirty(props.name);
+    }
 
     return (
         <input
+            {...inputProps}
+            onBlur={handleBlur}
             className="banco-form-control "
+            data-invalid={invalid}
+            data-dirty={dirty}
         />
     );
 }

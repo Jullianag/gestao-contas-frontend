@@ -10,14 +10,15 @@ export function loginRequest(loginData : CredentialsDTO) {
 
     const headers = {
         "Content-Type": "application/x-www-form-urlencoded",
-        "Authorizathion": "Basic " + window.btoa(CLIENT_ID + ":" + CLIENT_SECRET)
+        "Authorization": "Basic " + window.btoa(CLIENT_ID + ":" + CLIENT_SECRET)
     }
 
+    // desestruturar o loginData e acrescentar o grant_type
     const requestBody = QueryString.stringify({...loginData, grant_type: "password"});
 
     const config: AxiosRequestConfig = {
         method: "POST",
-        url: "/oauth/token",
+        url: "/oauth2/token",
         data: requestBody,
         headers: headers
     }
