@@ -15,3 +15,7 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.dsc-logged-user p {
+    font-size: 12px;
+}

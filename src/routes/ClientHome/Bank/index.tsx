@@ -1,9 +1,9 @@
 import './styles.css';
 import BankCard from "../../../components/BankCard";
 import AddBank from "../../../components/AddBank";
-import ButtonPrimary from "../../../components/ButtonPrimary";
 
 export default function Bank() {
+
 
     return (
         <main>
@@ -24,21 +24,19 @@ export default function Bank() {
                                 <p>R$ 7000.0</p>
                             </div>
                         </div>
+
                     </div>
 
 
                     <div>
                         <form>
                             <AddBank/>
-                            <div className="banco-btn-add">
-                                <ButtonPrimary text="Adicionar"/>
-                            </div>
+
                         </form>
 
                     </div>
 
                 </div>
-
 
 
             </section>

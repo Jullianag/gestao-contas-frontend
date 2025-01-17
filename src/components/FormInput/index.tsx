@@ -16,7 +16,7 @@ export default function FormInput(props: any) {
         <input
             {...inputProps}
             onBlur={handleBlur}
-            className="banco-form-control "
+            className="banco-form-control"
             data-invalid={invalid}
             data-dirty={dirty}
         />

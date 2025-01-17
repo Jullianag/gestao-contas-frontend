@@ -1,6 +1,7 @@
 import {TOKEN_KEY} from "../utils/system.ts";
 
 export function save(token: string) {
+    // chave TOKEN_KEY valor token
     localStorage.setItem(TOKEN_KEY, token);
 }
 

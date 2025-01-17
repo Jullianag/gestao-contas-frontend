@@ -80,19 +80,29 @@ export default function Login() {
                         <form className="banco-card banco-form banco-mt20" onSubmit={handleSubmit}>
                             <h2>Login</h2>
                             <div className="banco-form-controls-container">
-                                <FormInput
-                                    {...formData.username}
-                                    onTurnDirty={handleTurnDirty}
-                                    onChange={handleInputChange}
-                                />
+                                <div>
+                                    <FormInput
+                                        {...formData.username}
+                                        onTurnDirty={handleTurnDirty}
+                                        onChange={handleInputChange}
+                                    />
+                                </div>
+                                <div className="banco-form-controls-container">
+                                    <FormInput
+                                        {...formData.password}
+                                        onTurnDirty={handleTurnDirty}
+                                        onChange={handleInputChange}
+                                    />
+                                </div>
+
                             </div>
-                            <div className="banco-form-controls-container">
-                                <FormInput
-                                    {...formData.password}
-                                    onTurnDirty={handleTurnDirty}
-                                    onChange={handleInputChange}
-                                />
-                            </div>
+                            {
+                                submitResponseFail &&
+                                <div className="banco-form-global-error">
+                                    Usuário ou senha inválidos
+                                </div>
+                            }
+
 
                             <div className="banco-login-form-buttons banco-mt20">
                                 <hr className="hr-borda banco-mb15"/>
